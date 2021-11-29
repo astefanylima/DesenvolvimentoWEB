@@ -14,7 +14,7 @@
     <v-app-bar app color="deep-purple accent-4" dense dark>
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Meus Wallpapers</v-toolbar-title>
+      <v-toolbar-title>Page title</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -24,14 +24,6 @@
 
       <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-bell-off</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-card-account-details</v-icon>
       </v-btn>
 
       <v-menu left bottom>
@@ -56,7 +48,7 @@
             <v-list-item class="px-2">
               <v-list-item-avatar>
                 <v-img
-                  src="https://media-exp1.licdn.com/dms/image/C5603AQEKgESYnp-czw/profile-displayphoto-shrink_800_800/0/1616703056428?e=1643846400&v=beta&t=8v2xd40HZ8-7bpktLCxmFr_GOKCSDLkwQa07b6R9Tjw"
+                  src="https://randomuser.me/api/portraits/women/85.jpg"
                 ></v-img>
               </v-list-item-avatar>
             </v-list-item>
@@ -64,10 +56,10 @@
             <v-list-item link>
               <v-list-item-content>
                 <v-list-item-title class="text-h6">
-                  Stéfany Lima
+                  Sandra Adams
                 </v-list-item-title>
                 <v-list-item-subtitle
-                  >stefany.lima@outlook.com</v-list-item-subtitle
+                  >sandra_a88@gmail.com</v-list-item-subtitle
                 >
               </v-list-item-content>
             </v-list-item>
@@ -105,7 +97,7 @@
       <v-container app fluid>
         <v-parallax
           height="600"
-          src="https://s.zst.com.br/cms-assets/2021/03/shutterstock_659430700-1-.jpg"
+          src="https://cdn.vuetifyjs.com/images/parallax/material2.jpg"
         ></v-parallax>
       </v-container>
     </v-main>
@@ -114,7 +106,7 @@
       <v-card class="flex" flat tile>
         <v-card-title class="teal">
           <strong class="subheading"
-            >Me siga nas redes sociais @ste_lima07</strong
+            >Get connected with us on social networks!</strong
           >
 
           <v-spacer></v-spacer>
